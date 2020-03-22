@@ -1,0 +1,62 @@
+# Mod 0 Notes
+
+___
+## Session 3 Notes
+
+### _General Definitions_
+
+**Class**: think of a class as a category of a thing.
+**Instances**: are the different things that fall under that class. _Remember_ the class must be something that is definitive and only falls under that one class. Like how there are heart, diamonds and clovers that fall under a suit, but the can also fall under shapes. You have to be specific.
+**Attributes** is a characteristic that every instance of that class has. Think of it like the descriptions of the class. Whereas instances are the types of the class.
+**Methods** this is the behavior/action of a class. A method will use of change the attributes of an object. Methods should be like a verb. **the begin with a period! like .splice .split** Remember to use _ for the spaces.
+
+```
+**Example**
+          Class: car
+          attributes
+            amount_of_gas (integer)
+            paint_color (string)
+            number_of_carseats (integer)
+            engine_status (boolean)
+            passengers (array)
+            last_oil_change (datetime)
+          methods
+          change_owner (modifies the owner_name attribute)
+          deposit (modifies the balance attribute)s
+          withdraw (modifies the balance attribute & uses the over_draft fee if the balance drops below $0)
+          display_account_info (uses the owner_name and balance attributes)
+```
+
+###Git Hub
+
+**NOTE** Git is not the same as GitHub. **Git** allows us to track versions of our work on our local computer. It is a version control. It makes local versions of what you're working on _whereas_ **Github** is an online git repository hosting service (like the cloud). Alternatives to GitHub are GitLab and Bitbucket
+
+[GitHub commands for terminal](http://rogerdudler.github.io/git-guide/)
+
+#### _Definitions_
+**Repository** is a place where your work and commits are stored.
+
+**Origin** the URL where the code is hosted on GitHub. Every repository has its own URL. You can use this URL to add it to the terminal. So what you have to do is clone it using the clone button on the GitHub page. Then go to your terminal and type **$ git clone git username@host:/path/to/repository**
+
+**git remote -v** to check that we have an origin to remote???
+
+**git pull** will f=download all fo the changes and updates on the remote GitHub repo that you don't already have on your local one. This way if someone makes changes to a code, you can pull it to your local files so that the changes are updated.
+
+**git push** This is how you share/upload changes that you made from your local repo to the remote repo (GitHub). _format_ git push origin master
+
+**git log** This shows the list of commits you've made.
+
+**CRASH COURSE THIS IS HOW IT WORKS** It's like google docs, but better, easier to use and leaves a footprint. It allows for multiple people to work on the same project without having to physically be there in person or communicating with each other directly. So, this is how it works. Person 1 makes a master repository and uploads the main project. Person 2 and 3 can fork this repository. By forking the master repository Person 2 and 3 make their own copies to that main repository to work off of. They can then pull that repository to their master repo to edit and make changes. They can add and commit changes to their own forked repos. These commits are made with little messages which leaves a footprint of notes of what changes the person makes to the code. Person 2 can't see what person 3 changes to their repo until they push their changes. When they commit changes, it goes to their forked repo. Person 1 can see the forks that are made from their master repo by looking at the forks. Let's say person 2 makes changes and commits it. They can then push their changes to the original repo. git push origin master. Now all of those changes person 2 made to the code will appear on the master repo. Person 3 can try to push their commits now, but they're going to receive an error. They have to first **git pull --rebase origin master** to get person 2's changes and then now person 3 can push their changes to the repo everyone can see. This way there is one main file that everyone is adding changes to and everyone can look at the changes.
+
+**Metaphor** It's like a photoalbum that multiple people are adding to to form a final project. When you're trying to take a photo, you look at it through the lens, going through multiple angles until you snap the picture. This is the git add. git diff is when you go through all the photos at different perspectives or angles so that you can see the differences. git status is when you look at your camera after every snap to make sure it looks right, that it's there and that you're geting the picture that you were looking for. git commit is when you write a note of the time and date and caption you have for the photo and add it to the photoalbum.
+
+**forking** allows you to copy someone else's project while still keeping the reference to the original. A copy is made and placed in your own GitHub.
+
+          **NOTE**
+          1. Never clone a remote repository within a preexisting GIT repo.
+          2. Do not use "Initial commit" for something that you cloned.
+
+**pull request** You make local code changes and then submit those changes to a remote project maintainer for review before those changes are implemented, or merged. This is called a pull request; you are requesting that someone reviews and approves your changes before they become final.
+          1. Go to the main project's (not your fork) pull requests list and press the File Pull Request button.
+          2. Select the Remote pull-request option from the dropdown menu.
+          3. Fill the New remote pull-request form (Title, Git repo address and Git branch) and create your remote pull request.
