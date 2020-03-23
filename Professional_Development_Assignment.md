@@ -2,7 +2,7 @@
 
 ## Parin Results
 
-![Parin Test Results](https://imgur.com/TDSwbAb)
+![Parin Test Results](https://i.imgur.com/D6H656b.png)
 
 ## Step 3 Questions
 
@@ -20,7 +20,7 @@
 
    * ***How do you hope to maximize your strengths for your new career in software development?***
 
-   According to the Parin test, my strengths lie in being an imaginative-inspirational thinker, an ace achiever, being self-confident, and being a lover of transcendence. software development is a career heavily dependent on team interactions. By being an imaginative-inspirational thinker, this means that I can take someone's idea and run with it. I can take what they're envisioning and make it tangible while still coming back to them with what I think would make it better or with criticism on where I think something isn't preforming efficiently. I am an ace achiever, which means that if you give me something to do, I am going to the best I can to make whatever it is the best thing you have ever seen. To me there is no such thing as impossible. Therefore, on a team, I can use this strength to keep pushing my team toward working at something even when it is tough. I am self confident in myself, which means I know where my strengths lie and when I can or cannot do something. 
+   According to the Parin test, my strengths lie in being an imaginative-inspirational thinker, an ace achiever, being self-confident, and being a lover of transcendence. software development is a career heavily dependent on team interactions. By being an imaginative-inspirational thinker, this means that I can take someone's idea and run with it. I can take what they're envisioning and make it tangible while still coming back to them with what I think would make it better or with criticism on where I think something isn't preforming efficiently. I am an ace achiever, which means that if you give me something to do, I am going to the best I can to make whatever it is the best thing you have ever seen. To me there is no such thing as impossible. Therefore, on a team, I can use this strength to keep pushing my team toward working at something even when it is tough. I am self confident in myself, which means I know where my strengths lie and when I can or cannot do something.
 
    * ***How might knowing about your strengths and working preferences benefit you as a software developer?***
 
