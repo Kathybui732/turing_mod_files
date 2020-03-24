@@ -7,7 +7,7 @@ ___
 
 **Class**: think of a class as a category of a thing.
 **Instances**: are the different things that fall under that class. _Remember_ the class must be something that is definitive and only falls under that one class. Like how there are heart, diamonds and clovers that fall under a suit, but the can also fall under shapes. You have to be specific.
-**Attributes** is a characteristic that every instance of that class has. Think of it like the descriptions of the class. Whereas instances are the types of the class.
+**Attributes** is a characteristic that every instance of that class has. Think of it like the descriptions of the class. Whereas instances are the types of the class. Should be a noun.
 **Methods** this is the behavior/action of a class. A method will use of change the attributes of an object. Methods should be like a verb. **the begin with a period! like .splice .split** Remember to use _ for the spaces.
 
 ```
@@ -48,7 +48,7 @@ ___
 
 **CRASH COURSE THIS IS HOW IT WORKS** It's like google docs, but better, easier to use and leaves a footprint. It allows for multiple people to work on the same project without having to physically be there in person or communicating with each other directly. So, this is how it works. Person 1 makes a master repository and uploads the main project. Person 2 and 3 can fork this repository. By forking the master repository Person 2 and 3 make their own copies to that main repository to work off of. They can then pull that repository to their master repo to edit and make changes. They can add and commit changes to their own forked repos. These commits are made with little messages which leaves a footprint of notes of what changes the person makes to the code. Person 2 can't see what person 3 changes to their repo until they push their changes. When they commit changes, it goes to their forked repo. Person 1 can see the forks that are made from their master repo by looking at the forks. Let's say person 2 makes changes and commits it. They can then push their changes to the original repo. git push origin master. Now all of those changes person 2 made to the code will appear on the master repo. Person 3 can try to push their commits now, but they're going to receive an error. They have to first **git pull --rebase origin master** to get person 2's changes and then now person 3 can push their changes to the repo everyone can see. This way there is one main file that everyone is adding changes to and everyone can look at the changes.
 
-**Metaphor** It's like a photoalbum that multiple people are adding to to form a final project. When you're trying to take a photo, you look at it through the lens, going through multiple angles until you snap the picture. This is the git add. git diff is when you go through all the photos at different perspectives or angles so that you can see the differences. git status is when you look at your camera after every snap to make sure it looks right, that it's there and that you're geting the picture that you were looking for. git commit is when you write a note of the time and date and caption you have for the photo and add it to the photoalbum.
+**Metaphor** It's like a photoalbum that multiple people are adding to to form a final project. When you're trying to take a photo, you look at it through the lens, going through multiple angles until you snap the picture. This is the git add. git diff is when you go through all the photos at different perspectives or angles so that you can see the differences. git status is when you look at your camera after every snap to make sure it looks right, that it's there and that you're getting the picture that you were looking for. git commit is when you write a note of the time and date and caption you have for the photo and add it to the photoalbum.
 
 **forking** allows you to copy someone else's project while still keeping the reference to the original. A copy is made and placed in your own GitHub.
 
@@ -60,3 +60,25 @@ ___
           1. Go to the main project's (not your fork) pull requests list and press the File Pull Request button.
           2. Select the Remote pull-request option from the dropdown menu.
           3. Fill the New remote pull-request form (Title, Git repo address and Git branch) and create your remote pull request.
+
+--
+
+## Session 4 Notes
+
+**Object oriented programing** an approach to programming where programs are organized as a series of object. It is similar to how the world actually works.
+
+**return value** is the result of a method.  
+
+**Can you spot the problems?**
+What would be wrong with…
+
+_a class called Turing_
+_an attribute called current_time_
+_having attributes for a Review class called one_star, two_stars, three_stars, etc._
+_a Senator class having an array attribute called senator_names_
+_a class called California
+having attributes on a ShoppingCart class called item_one, item_two, item_three, etc._
+_a method on GroceryStore called clean_aisle_seven_
+_a Bottle class having an attribute called water_
+_a Chair class having an attribute called number_of_chairs_
+_a MenuItem class with a method called CustomerSurvey_
