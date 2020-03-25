@@ -7,7 +7,7 @@
 ---
 \
 \
-\
+
 ## Step 3 Questions
 
   * ***What is your greatest strength and how do you know?***
@@ -36,7 +36,7 @@
 ---
 \
 \
-\
+
 ## Step 5 Questions
 
   * ***What efforts do you make to manage your learning process? Are these efforts successful? What challenges have inhibited your ability to manage your learning process effectively?***
