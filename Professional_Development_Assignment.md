@@ -5,7 +5,7 @@
 ![Parin Test Results](https://i.imgur.com/D6H656b.png)
 
 ---
-\
+
 
 
 ## Step 3 Questions
@@ -34,7 +34,7 @@
 
     By knowing your strengths and working preferences, you know what you have to offer when working in a group and how you can most efficiently contribute to your work. This way you can leverage your strengths in a way that will benefit everyone. By knowing yourself, you can provide others with the best performance you can give. This also allows you to communicate with your peers when you want an opportunity to be involved in an area where you feel less comfortable. You can let them know that this isn't one of your strongest areas, but you want to learn more about it and would like an attempt at it. This way you're not spearheading the project, but are still involved and learning and progressing yourself.
 ---
-\
+
 
 
 ## Step 5 Questions
